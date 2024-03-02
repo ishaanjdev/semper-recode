@@ -9,6 +9,8 @@ Sphinx==1.8.5
 twine==1.14.0
 Click==7.1.2
 pytest==7.4.0
-pandas==2.0.3
+pandas==2.2.1
 biopython==1.81
-
+seaborn==0.13.2
+scikit-learn==1.4.0
+matplotlib==3.8.3
