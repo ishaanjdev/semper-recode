@@ -16,7 +16,8 @@ def calc_mRNA_sim(number_cells, load_cell_dist, params, **kwargs):
         Number of cells (wihtout replicates) that you want to load with mRNA
 
     load_cell_dist: (callable)
-        A np.random distribution to sample from
+        A np.random distribution to sample from. Size in the load distribution is the number of 
+        times you sample from distribtion. This will be entered in **kwargs.
 
     Returns
     -------
